@@ -2,17 +2,11 @@
 
 Stellar Polling DApp - Blockchain-Based Decentralized Voting System
 
-============================================================
-
 ## Project Description
 
 Stellar Polling DApp is a decentralized voting application built on the Stellar blockchain using the Soroban SDK and Rust programming language. The smart contract enables users to create polls, vote securely, and manage polling activities directly on-chain without relying on centralized systems.
-
 The application leverages the transparency, immutability, and security of blockchain technology to ensure that voting data remains tamper-proof and publicly verifiable. Every poll and vote is permanently recorded on the Stellar network, providing a trustworthy and decentralized polling environment.
-
 Each poll contains a unique identifier, a voting question, vote counters for YES and NO responses, and ownership information tied to the creator’s wallet address.
-
-============================================================
 
 ## Project Vision
 
@@ -22,20 +16,14 @@ We aim to:
 
 - Promote Transparency
   Ensure that all voting activities are publicly verifiable on the blockchain.
-
 - Enhance Trust
   Remove dependency on centralized authorities and create a trustless voting environment.
-
 - Ensure Security
   Protect poll ownership and voting actions using blockchain wallet authentication.
-
 - Empower Users
   Allow users to create and participate in polls freely with full control over their data.
-
 - Build Scalable Governance Solutions
   Create a foundation for future decentralized governance and community decision-making systems.
-
-============================================================
 
 ## Key Features
 
@@ -97,7 +85,13 @@ Features:
 - Transparent vote tracking
 - Decentralized data storage
 
-============================================================
+## Contract Details
+
+Contract ID: CAHM7PWNO5NHJVHHEWJQUC23U3BDCBRFDCEBK7OAVPYE36JQ2EUISGJJ
+Network: Stellar Soroban Testnet
+Contract Type: 
+Decentralized Polling Smart Contract
+Platform: Stellar Blockchain using Soroban SDK
 
 ## Contract Structure
 
@@ -110,8 +104,6 @@ pub struct Poll {
     no_votes: u32,
     creator: Address,
 }
-
-============================================================
 
 ## Smart Contract Functions
 
@@ -146,7 +138,6 @@ Adds one NO vote to a selected poll.
 
 Deletes a poll if the caller is the original creator.
 
-============================================================
 
 ## Security Features
 
@@ -162,8 +153,6 @@ Only the creator of a poll can delete their poll.
 
 This prevents unauthorized modifications and ensures data integrity.
 
-============================================================
-
 ## Technical Stack
 
 - Stellar Blockchain
@@ -171,24 +160,18 @@ This prevents unauthorized modifications and ensures data integrity.
 - Rust Programming Language
 - Smart Contract Instance Storage
 
-============================================================
-
 ## Future Scope
 
 ### Short-Term Enhancements
 
 1. One Wallet One Vote System
    Prevent duplicate voting from the same wallet address.
-
 2. Poll Expiration Time
    Add deadlines and automatic poll closure.
-
 3. Voting Percentage Display
    Show percentage-based results for better visualization.
-
 4. Event Logging
    Emit blockchain events for poll creation and voting activities.
-
 5. Poll Categories
    Organize polls into categories such as education, technology, governance, etc.
 
@@ -198,16 +181,12 @@ This prevents unauthorized modifications and ensures data integrity.
 
 6. Multi-Option Polling
    Support more than two voting choices.
-
 7. Anonymous Voting
    Implement privacy-preserving voting mechanisms.
-
 8. Poll Comments and Discussions
    Allow users to discuss polls on-chain.
-
 9. Frontend Integration
    Build a web-based frontend connected to Stellar wallets.
-
 10. Mobile Compatibility
     Create mobile-friendly decentralized polling applications.
 
@@ -217,20 +196,14 @@ This prevents unauthorized modifications and ensures data integrity.
 
 11. DAO Governance System
     Expand the platform into a decentralized governance framework.
-
 12. Community Treasury Voting
     Enable blockchain-based treasury and proposal voting.
-
 13. Cross-Chain Voting Integration
     Connect with other blockchain ecosystems.
-
 14. Decentralized Identity Integration
     Link voting systems with decentralized identity (DID) solutions.
-
 15. Zero-Knowledge Privacy
     Introduce privacy layers for confidential voting systems.
-
-============================================================
 
 ## Technical Requirements
 
@@ -238,8 +211,6 @@ This prevents unauthorized modifications and ensures data integrity.
 - Soroban SDK
 - Stellar CLI
 - Stellar Testnet or Futurenet
-
-============================================================
 
 ## Getting Started
 
@@ -251,8 +222,6 @@ Deploy the smart contract to the Stellar Soroban network and interact with the f
 - vote_no()      -> Submit NO vote
 - delete_poll()  -> Delete an owned poll
 
-============================================================
-
 ## Example Poll
 
 Poll {
@@ -263,8 +232,6 @@ Poll {
     creator: wallet_address,
 }
 
-============================================================
-
 ## Use Cases
 
 - Student organization voting
@@ -274,15 +241,10 @@ Poll {
 - Transparent decision making
 - Event feedback collection
 
-============================================================
-
 ## Conclusion
 
 Stellar Polling DApp demonstrates how blockchain technology can be used to create secure, transparent, and decentralized voting systems. By leveraging the Stellar network and Soroban smart contracts, the application ensures integrity, transparency, and trust in digital polling activities.
-
 This project serves as a foundation for building larger decentralized governance and voting platforms in the future.
-
-============================================================
 
 Stellar Polling DApp
 Decentralizing Trust Through Blockchain Voting.
