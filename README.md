@@ -88,9 +88,13 @@ Features:
 ## Contract Details
 
 Contract ID: CAHM7PWNO5NHJVHHEWJQUC23U3BDCBRFDCEBK7OAVPYE36JQ2EUISGJJ
+
 Network: Stellar Soroban Testnet
+
 Contract Type: 
+
 Decentralized Polling Smart Contract
+
 Platform: Stellar Blockchain using Soroban SDK
 
 ## Contract Structure
